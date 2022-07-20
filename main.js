@@ -7,10 +7,11 @@ let NEdades = parseInt(prompt("Digite cual es la cantidad de personas registrada
 for (i = 0; i< NEdades; i++) {
     let edades = parseInt(prompt("Digite las edades: " + i))
     suma = suma + edades
+    console.log("Las edades son: " + edades);
 }
 
 promedio = suma / NEdades
 
-alert("El promedio de las edades son: " + promedio)
+alert("El promedio de las edades es: " + promedio)
 
-console.log("El promedio de las edades son: " + promedio);
+console.log("El promedio de las edades es: " + promedio);
